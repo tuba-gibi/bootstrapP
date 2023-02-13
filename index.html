@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLARUSWAY</title>
+    <link
+      rel="stylesheet"
+      href="./lib/bootstrap-5.0.2-dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <!--? ******* navbar ****** -->
+
+    <nav class="navbar navbar-expand-lg bg-info navbar-dark bg-gradient">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#students">Injured</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#courses"
+                >Volunteers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./lib/img/1660222431078-yeni-proje.jpeg"
+            class="d-block w-100"
+            alt="#gibi"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>6 Şubat Depremi</h5>
+            <p>
+              "Hapse girmeyecek şekilde duygularımı ifade edemiyorum." Feyyaz
+              Yiğit, 08.02.2023
+            </p>
+            <div>
+              <button class="btn-danger">gibi</button>
+              <button class="btn-dark">gibi</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./lib/img/v.jpeg" class="d-block w-100" alt="V" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>V for Vendetta</h5>
+            <p>
+              "People shouldn't be afraid of their governments , governments
+              should be afraid of their people.."
+            </p>
+            <button class="btn-danger">Start Now</button>
+            <button class="btn-dark">Just do it</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./lib/img/maraş.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-warning">6 Şubat Sabahı Maraş</h5>
+            <p>"İkinci Maraş Katliamı :( "</p>
+            <button class="btn-danger">Maraş</button>
+            <button class="btn-dark">Diğer İller</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--* ABOUT -->
+    <main class="text-center">
+      <section id="about" class="conatiner bg-light p-4">
+        <h2 class="text-danger display-6">About Us</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+<i class="fa-solid fa-earth-americas"></i>            <h5>Online Courses</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              quibusdam voluptas sunt tempora, veniam rem.
+            </p>
+          </div>
+          <div class="col-5">
+            <i class="fa-solid fa-headset fa-2x"></i>
+          </div>
+          <div class="col-3">
+            <i class="fa-sharp fa-solid fa-book-open fa-2x"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./lib/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="./lib/fslightbox.js"></script>
+  </body>
+</html>
